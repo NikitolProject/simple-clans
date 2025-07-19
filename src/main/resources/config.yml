@@ -1,0 +1,42 @@
+# Настройки базы данных
+database:
+  file: "clans.db"
+
+# Настройки клана
+clan:
+  max-players: 15
+  max-name-length: 16
+  friendly-fire: true
+  tag-format: "&7[%clan_name%&7] "
+
+# Настройки кланового чата
+chat:
+  format: "&8[&bКлан&8] [%luckperms_prefix%] %player_name%: &f%message%"
+
+# Сообщения
+messages:
+  clan-created: "&aКлан '%clan_name%&a' успешно создан!"
+  clan-disbanded: "&cКлан '%clan_name%&a' был распущен."
+  player-invited: "&aВы пригласили игрока %player_name% в клан."
+  player-joined: "&aИгрок %player_name% присоединился к вашему клану."
+  player-kicked: "&eИгрок %player_name% был исключен из клана."
+  no-permission: "&cУ вас нет прав для выполнения этой команды."
+  not-in-clan: "&cВы не состоите в клане."
+  already-in-clan: "&cВы уже состоите в клане."
+  clan-full: "&cКлан заполнен."
+  invalid-clan: "&cКлан с таким названием не найден."
+  player-not-found: "&cИгрок не найден."
+  player-not-found-in-clan: "&cИгрок с таким ником не найден в вашем клане."
+  invite-received: "&aВы были приглашены в клан '%clan_name%&a'. Используйте /clan join, чтобы принять приглашение, и clan deny для отклонения приглашения, или нажмите на кнопку"
+  no-invite: "&cУ вас нет активных приглашений."
+  player-already-in-clan: "&cЭтот игрок уже состоит в клане."
+  clan-name-taken: "&cКлан с таким названием уже существует."
+  clan-name-too-long: "&cНазвание клана слишком длинное. Максимум %max_length% символов."
+  invalid-args: "&cНеверные аргументы команды."
+  player-not-in-your-clan: "&cЭтот игрок не состоит в вашем клане."
+  cannot-kick-self: "&cВы не можете исключить самого себя."
+  you-have-been-kicked: "&cВы были исключены из клана %clan_name%&c."
+  clan-chat-on: "&aКлановый чат включен."
+  clan-chat-off: "&cКлановый чат выключен."
+  cant-hurt-member: "&cВы не можете атаковать члена своего клана."
+  invite-denied: "&aВы отклонили приглашение в клан %clan_name%&a."

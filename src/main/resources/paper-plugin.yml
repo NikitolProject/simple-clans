@@ -1,0 +1,22 @@
+name: SimpleClans
+version: ${version}
+main: com.nikitolproject.simpleclans.ClanPlugin
+description: Clan Plugin
+author: NikitolProject
+api-version: 1.21
+load: POSTWORLD
+defaultPerm: FALSE
+permissions:
+  simpleclans.use:
+    description: Allows using basic clan commands.
+    default: true
+  simpleclans.create:
+    description: Allows creating a clan.
+    default: op
+dependencies:
+  - name: LuckPerms
+    required: true
+    load: BEFORE
+  - name: PlaceholderAPI
+    required: false
+    load: BEFORE
